@@ -3,10 +3,10 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 # Load data
-bit_data = pd.read_csv(r'C:\Users\ASUS\Desktop\bits-corruption-Py\data\BIT_CSV\bit_static_outdoor_LOS_IUT_8_5890_50_21.csv')
+bit_data = pd.read_csv(r'C:\Users\ASUS\Desktop\bits-corruption-Py\data\BIT_CSV\bit_static_outdoor_LOS_IUT_1_5890_50_5.csv')
 bit_data.columns = bit_data.columns.str.strip()
 
-status_data = pd.read_csv(r'C:\Users\ASUS\Desktop\bits-corruption-Py\data\DATA_CSV\data_static_outdoor_LOS_IUT_8_5890_50_21.csv')
+status_data = pd.read_csv(r'C:\Users\ASUS\Desktop\bits-corruption-Py\data\DATA_CSV\data_static_outdoor_LOS_IUT_1_5890_50_5.csv')
 status_data.columns = status_data.columns.str.strip()
 status_data = status_data[status_data['status'] == 'DATA']
 
